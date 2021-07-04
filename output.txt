@@ -1,0 +1,10 @@
+E:\temp\>javac -cp bin;lib/* -d bin src/meinpackage/*.java
+
+E:\temp\>javac -cp bin;lib/* -d bin test/meinpackage/*.java
+
+E:\temp\>java -cp bin;lib/* junit.textui.TestRunner meinpackage.MeineKlasseTest
+...
+Time: 0,002
+
+OK (3 tests)
+
